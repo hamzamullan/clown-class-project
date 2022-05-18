@@ -2,7 +2,7 @@ nose_x = 0;
 nose_y = 0;
 
 function preload(){
-    clown_nose = loadImage('https://i.postimg.cc/Dw68nrsB/clownnose.png');
+    mustache = loadImage('https://i.postimg.cc/MGbBF6PJ/m.png');
 }
 
 function setup(){
@@ -22,7 +22,7 @@ function modelLoaded(){
 
 function draw(){
     image(video , 0 , 0, 300 , 300);
-    image( clown_nose , nose_x , nose_y , 30 , 30);
+    image( mustache , nose_x , nose_y , 30 , 30);
 }
 
 function gotPoses(results){
